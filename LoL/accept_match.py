@@ -22,3 +22,5 @@ while True:
         print("In Queue...!")
 
     time.sleep(check_interval)
+
+# pyinstaller --onefile --add-data "accept_button.png;dist/accept_button.png". accept_match.py
